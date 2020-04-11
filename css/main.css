@@ -39,9 +39,14 @@ a {
   text-decoration: none;
 }
 
-h1,
+.wrapper-call-to-action{
+  font-family: 'Inter', sans-serif;
+}
+
+.title,
 nav {
   text-align: center;
+  font-family: 'Alata', sans-serif;
 }
 
 .banner-content {
@@ -64,12 +69,12 @@ nav {
 }
 
 .about {
-  background-color: #D3D3D3;
+  background-color: #fff;
   font-family: 'Inter', sans-serif;
 }
 
 .objective {
-  background-color: #D3D3D3;
+  background-color: #C4D0F5;
   font-family: 'Inter', sans-serif;
 }
 
