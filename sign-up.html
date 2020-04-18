@@ -27,9 +27,10 @@
     </nav>
 </header>
 
-<section class="contact pad-t-2 pad-2">
+<section class="sign-up pad-t-2 pad-2 pad-b">
 <div class="max-length">
   <h1>Are you new? Get Started!</h1>
+  <p> Already have an account? <a>Login</a>
 
   <form class="push-0" method="POST" action="">
     <div class="push">
@@ -48,7 +49,14 @@
       <label for="email">Confirm Password</label>
       <input id="email" type="email" placeholder="" name="password" required>
     </div>
-      <button class="btn btn-light mega" type="submit">Send message</button>
+    <div class="push">
+          <label for="subject">Do you agree to our <a>Terms of Service</a>?</label>
+          <select id="subject" name="_subject">
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+      <button class="btn btn-light mega" type="submit">Sign Up</button>
     </div>
   </form>
 </div>
