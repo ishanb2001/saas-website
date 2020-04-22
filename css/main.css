@@ -2,14 +2,6 @@ html {
   font-family: sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
-}
-
 header {
   background-color: #fff;
 }
@@ -65,10 +57,6 @@ nav {
 
 .container {
 font-family: "Alata", sans-serif;
-}
-
-body {
-  margin: 0;
 }
 
 .details {
