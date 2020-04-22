@@ -72,6 +72,11 @@ nav {
   width: 350px;
 }
 
+.photo-objective {
+  float: left;
+  width: 350px;
+}
+
 .info {
   float: right;
   width: 75%;
@@ -111,6 +116,7 @@ p {
   .banner-content{
     transform: translateY(4rem);
   }
+  }
 
   @media only screen and (min-width: 40em) {
 
@@ -119,18 +125,27 @@ p {
       transform: translateX(50rem);
     }
 
+}
+
     @media only screen and (min-width: 60em) {
 
       .banner-image{
         width: 100%;
         transform: translateX(4rem);
       }
-    }
+
+      .banner-content{
+        transform: translateY(2rem);
+      }
+  }
 
     @media only screen and (min-width: 90em) {
 
       .banner-image{
         width: 100%;
         transform: translateX(-1rem);
-      }
+}
+        .banner-content{
+          transform: translateX(2rem);
+        }
     }
