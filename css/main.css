@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: Alata, sans-serif;
+}
+
 .wrapper-call-to-action {
   font-family: Inter, sans-serif;
 }
@@ -45,12 +49,12 @@ nav {
 }
 
 .about {
-  background-color: #fff;
+  background-color: #c4d0f5;
   font-family: Inter, sans-serif;
 }
 
 .objective {
-  background-color: #c4d0f5;
+  background-color: #fff;
   font-family: Inter, sans-serif;
 }
 
@@ -88,5 +92,45 @@ nav {
 }
 
 footer {
-  background-color: #fff;
+  background-color: #000;
 }
+
+h2,
+p {
+  color: #000;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .banner-image{
+    position: absolute;
+    transform: translateX(50rem);
+  }
+
+  .banner-content{
+    transform: translateY(4rem);
+  }
+
+  @media only screen and (min-width: 40em) {
+
+    .banner-image{
+      position: absolute;
+      transform: translateX(50rem);
+    }
+
+    @media only screen and (min-width: 60em) {
+
+      .banner-image{
+        width: 100%;
+        transform: translateX(4rem);
+      }
+    }
+
+    @media only screen and (min-width: 90em) {
+
+      .banner-image{
+        width: 100%;
+        transform: translateX(-1rem);
+      }
+    }

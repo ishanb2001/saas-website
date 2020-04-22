@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 575.2 700.2" style="enable-background:new 0 0 575.2 700.2;" xml:space="preserve">
+	 viewBox="0 0 575.2 657.7" style="enable-background:new 0 0 575.2 657.7;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#185189;stroke:#185189;stroke-width:6;}
 	.st1{fill:#185189;stroke:#185189;stroke-width:3;}
 	.st2{fill:#185189;stroke:#185189;stroke-width:4;stroke-miterlimit:3.9992;}
 	.st3{fill:#185189;stroke:#185189;stroke-width:3;stroke-miterlimit:3.9992;}
 	.st4{fill:#185189;stroke:#185189;stroke-width:14;}
-	.st5{fill:#185189;stroke:#185189;stroke-width:2;}
-	.st6{fill:none;stroke:#185189;stroke-width:16;}
-	.st7{fill:#185189;}
+	.st5{fill:#185189;}
+	.st6{fill:none;stroke:#185189;stroke-width:18.4618;}
+	.st7{fill:none;stroke:#185189;stroke-width:18;}
 </style>
 <path class="st0" d="M284.3,101.7c-34,0-67,6.7-98,19.8c-30,12.7-56.9,30.9-80.1,54c-23.1,23.1-41.3,50.1-54,80.1
 	c-13.1,31-19.8,64-19.8,98s6.7,67,19.8,98c12.7,30,30.9,56.9,54,80.1c23.1,23.1,50.1,41.3,80.1,54c31,13.1,64,19.8,98,19.8
@@ -34,10 +34,10 @@
 <path id="Rectangle_115" class="st1" d="M180,470.7L180,470.7c6.1,6.1,6.1,16.1,0,22.2l-28.9,28.9c-6.1,6.1-16.1,6.1-22.2,0l0,0
 	c-6.1-6.1-6.1-16.1,0-22.2l28.9-28.9C163.9,464.5,173.9,464.5,180,470.7z"/>
 <circle id="Ellipse_6" class="st4" cx="287.9" cy="369.9" r="30.5"/>
-<path id="Path_35" class="st5" d="M279.7,212.3h15.5v130.9h-15.5V212.3z"/>
-<path id="Path_36" class="st5" d="M308.4,358.7h85.2v15.8h-85.2V358.7z"/>
-<line id="Line_32" class="st6" x1="166.9" y1="574.4" x2="138.7" y2="677.7"/>
-<line id="Line_33" class="st6" x1="420.5" y1="565" x2="448.7" y2="677.7"/>
-<ellipse id="Ellipse_49" class="st7" cx="138.7" cy="75.8" rx="56.4" ry="59.9"/>
-<ellipse id="Ellipse_50" class="st7" cx="461.6" cy="88.4" rx="62.5" ry="66.4"/>
+<path id="Path_35" class="st5" d="M283.5,212.3h7.7v130.9h-7.7V212.3z"/>
+<path id="Path_36" class="st5" d="M308.4,362.6h85.2v7.9h-85.2V362.6z"/>
+<path id="Line_32_1_" class="st6" d="M165.3,584.5"/>
+<path id="Line_33_1_" class="st7" d="M417.7,578.3"/>
+<path class="st5" d="M41.1,198.7L235.3,75.3C235.3,75.3,60.1-14.1,41.1,198.7z"/>
+<path class="st5" d="M347.2,81.9l193.4,124.7C540.6,206.6,548.4,10.1,347.2,81.9z"/>
 </svg>
