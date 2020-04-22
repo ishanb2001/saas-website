@@ -20,14 +20,14 @@ a {
   text-decoration: none;
 }
 
-.wrapper-call-to-action{
-  font-family: 'Inter', sans-serif;
+.wrapper-call-to-action {
+  font-family: Inter, sans-serif;
 }
 
 .title,
 nav {
   text-align: center;
-  font-family: 'Alata', sans-serif;
+  font-family: Alata, sans-serif;
 }
 
 .banner-content {
@@ -38,7 +38,6 @@ nav {
   position: absolute;
 }
 
-
 .banner {
   overflow: hidden;
   position: relative;
@@ -47,16 +46,16 @@ nav {
 
 .about {
   background-color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 .objective {
-  background-color: #C4D0F5;
-  font-family: 'Inter', sans-serif;
+  background-color: #c4d0f5;
+  font-family: Inter, sans-serif;
 }
 
 .container {
-font-family: "Alata", sans-serif;
+  font-family: Alata, sans-serif;
 }
 
 .details {

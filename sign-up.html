@@ -9,14 +9,13 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Inter:wght@400;531;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <ul class="skip-links">
-    <li><a href="#nav">Navigation</a></li>
-    <li><a href="#main"></a>Main</li>
+    <li><a href="#nav">skip to Navigation</a></li>
+    <li><a href="#main">skip to Main</a></li>
   </ul>
 
   <header class="grid grid-middle" role="banner">
@@ -31,61 +30,61 @@
       </ul>
     </nav>
 
-  <div class="unit xs-1 s-1 m-1 l-1 xl-1 banner">
-    <div class="push-2 embed embed-3by1">
-    <img class="embed-item item" src="images/pexels-photo-3584996.jpeg" alt="Woman using the computer">
-    <div class="banner-content push-2">
+    <div class="unit xs-1 s-1 m-1 l-1 xl-1 banner">
+      <div class="push-2 embed embed-3by1">
+        <img class="embed-item item" src="images/pexels-photo-3584996.jpeg" alt="Woman using the computer">
+        <div class="banner-content push-2">
 
-      <div class="max-length wrapper-call-to-action embed embed-3by1 gutter-1-2">
-        <h2 class="nina push-0">SIGN UP</h2>
+          <div class="max-length wrapper-call-to-action embed embed-3by1 gutter-1-2">
+            <h2 class="nina push-0">SIGN UP</h2>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
   </header>
 
-<main class="main" role="main">
-<section class="sign-up pad-t-2 pad-2 pad-b">
-<div class="max-length">
-  <div class="nina">Are you new? Get Started!</div>
+  <main class="main" role="main" id="main">
+    <section class="sign-up pad-t-2 pad-2 pad-b">
+      <div class="max-length">
+        <div class="nina">Are you new? Get Started!</div>
 
-  <form class="push-0" method="POST" action="https://formspree.io/bhar0040@algonquincollege.com">
-    <div class="push">
-      <label for="name">Name</label>
-      <input id="name" name="name" required>
-    </div>
-    <div class="push">
-      <label for="email">Your email</label>
-      <input id="email" type="email" placeholder="me@me.com" name="email" required>
-    </div>
-    <div class="push">
-      <label for="email">Password</label>
-      <input id="password" type="password" placeholder="" name="password" required>
-    </div>
-    <div class="push">
-      <label for="confirm-password">Confirm Password</label>
-      <input id="confirm-password" type="password" placeholder="" name="password" required>
-    </div>
-    <div class="push">
-          <label for="subject">Do you agree to our Terms of Service</label>
-          <select id="subject" name="_subject">
-            <option>Yes</option>
-            <option>No</option>
-          </select>
-        </div>
-      <button class="btn btn-light mega" type="submit">Sign Up</button>
-  </form>
-  <p class="login">Already have an account? Login.</p>
-  <a class="btn btn-sign-up" href="#">Login</a>
-</div>
-</section>
-</main>
+        <form class="push-0" method="POST" action="https://formspree.io/bhar0040@algonquincollege.com">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="push">
+            <label for="email">Your email</label>
+            <input id="email" type="email" placeholder="me@me.com" name="email" required>
+          </div>
+          <div class="push">
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="" name="password" required>
+          </div>
+          <div class="push">
+            <label for="confirm-password">Confirm Password</label>
+            <input id="confirm-password" type="password" placeholder="" name="password" required>
+          </div>
+          <div class="push">
+            <label for="subject">Do you agree to our Terms of Service</label>
+            <select id="subject" name="_subject">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <button class="btn btn-light mega" type="submit">Sign Up</button>
+        </form>
+        <p class="login">Already have an account? Login.</p>
+        <a class="btn btn-sign-up" href="#">Login</a>
+      </div>
+    </section>
+  </main>
 
-<footer role="contentinfo">
-  <div class="pad-t push">
-  <small class="push-0">Time Buddies</small>
-</div>
-</footer>
+  <footer role="contentinfo">
+    <div class="pad-t push">
+      <small class="push-0">Time Buddies</small>
+    </div>
+  </footer>
 
 </body>
 </html>
