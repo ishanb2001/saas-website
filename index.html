@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-  <head>
+<head>
   <meta charset="utf-8">
   <title>index.html</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -14,59 +14,63 @@
 </head>
 <body>
 
-  <div class="grid grid-middle">
+  <ul class="skip-links">
+    <li><a href="#nav">Navigation</a></li>
+    <li><a href="#main"></a>Main</li>
+  </ul>
+
+  <header class="grid grid-middle" role="banner">
     <div class="pad-t unit s-1 s-1 m-1-3 l-1-3">
       <h1 class="title">Time Buddies</h1>
     </div>
-    <nav class="list-group pad-t peta-0 text-right bold unit xs-1-2 s-1-2 m-2-4 l-2-4" role="navigation">
+    <nav class="nav list-group pad-t peta-0 text-right bold unit xs-1-2 s-1-2 m-2-4 l-2-4" role="navigation" id="nav">
       <ul>
-        <li><a class="current island-1-4" href="index.html">Home</a></li>
-        <li><a class="island-1-2" href="tour.html">Tour</a></li>
-        <li><a class="island-1-4" href="sign-up.html">Sign up</a></li>
+        <li><a class="btn btn-home current island-1-4" href="index.html">Home</a></li>
+        <li><a class="btn btn-tour island-1-2" href="tour.html">Tour</a></li>
+        <li><a class="btn btn-tour island-1-4" href="sign-up.html">Sign up</a></li>
       </ul>
     </nav>
-  </div>
 
-  <header class="banner" role="banner">
-  <img class="img-flex" src="images/pexels-photo-3584996.jpeg" alt="">
-  <div class="banner-content push-2">
-    <div class="max-length wrapper-call-to-action text-center">
-      <p class="nina push-0">Manage your time today.</p>
-      <p class="tera bold"> First 30 days free. No credit card required.</p>
+  <div class="unit xs-1 s-1 m-1 l-1 xl-1 banner">
+    <div class="push-2 embed embed-3by1">
+    <img class="embed-item item" src="images/pexels-photo-3584996.jpeg" alt="Woman using the computer">
+    <div class="banner-content push-2">
+
+      <div class="max-length wrapper-call-to-action embed embed-3by1 gutter-1-2">
+        <h2 class="nina push-0">Manage your time today.</h2>
+        <p class="tera bold"> First 30 days free. No credit card required.</p>
+      </div>
     </div>
   </div>
+</div>
   </header>
 
-<main class= "main" role="main">
-      <figure class="photo-about gutter-1-4 pad-t push-r-1-2 pad-t-2">
-        <img class="img-flex" src="images/pexels-photo-925786.jpeg" alt="">
-      </figure>
+  <main class="main" role="main" id="main">
+    <figure class="photo-about gutter-1-4 pad-t push-r-1-2 pad-t-2">
+      <img class="img-flex" src="images/pexels-photo-925786.jpeg" alt="">
+    </figure>
 
-      <section class="about pad-b-1-2 pad-t-1-2 island-2">
-        <div class="unit nina bold about-title push"> Who are We? </div>
-        <p class="about-description">We are a time managing platform built for you and your team <br> to manage projects, track time, and organize.</p>
-        <a class="island-1-2" href="tour.html">Learn More</a>
-      </section>
+    <section class="about pad-b-1-2 pad-t-1-2 island-2">
+      <div class="unit nina bold about-title push"> Who are We? </div>
+      <p class="about-description">We are a time managing platform built for you and your team <br> to manage projects, track time, and organize.</p>
+      <a class="island-1-2" href="tour.html">Learn More</a>
+    </section>
 
-      <figure class="photo-about gutter-1-4 pad-t push-r-1-2 pad-t-2">
-        <img class="img-flex" src="images/pexels-photo-1569076.jpeg" alt="">
-      </figure>
+    <figure class="photo-about gutter-1-4 pad-t push-r-1-2 pad-t-2">
+      <img class="img-flex" src="images/pexels-photo-1569076.jpeg" alt="">
+    </figure>
 
-      <section class="objective pad-b-1-2 pad-t-1-2 island-2">
-        <div class="unit nina bold objective-title push"> Objective </div>
-        <p class="objective-description">Our Objective is to help business workers and students handle <br> work projects while managing their time efficiently.</p>
-        <a class="island-1-2" href="tour.html"> Learn More</a>
-      </section>
-</main>
+    <section class="objective pad-b-1-2 pad-t-1-2 island-2">
+      <div class="unit nina bold objective-title push"> Objective </div>
+      <p class="objective-description">Our Objective is to help business workers and students handle <br> work projects while managing their time efficiently.</p>
+      <a class="island-1-2" href="tour.html"> Learn More</a>
+    </section>
+  </main>
 
-  <footer>
-    <div class="pad-t push">
-          <label for="details">Subscribe to our Newsletter</label>
-          <textarea id="details" name="message" required></textarea>
-        </div>
-        <div>
-          <button class="btn btn-light mega" type="submit">Sign up</button>
-        </div>
+    <footer role="contentinfo">
+      <div class="pad-t push">
+      <small class="push-0">Time Buddies</small>
+    </div>
   </footer>
 </body>
 </html>
