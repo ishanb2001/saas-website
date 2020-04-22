@@ -14,15 +14,17 @@
 <body>
 
   <ul class="skip-links">
+    <li><a href="#banner">skip to Banner</a></li>
     <li><a href="#nav">skip to Navigation</a></li>
     <li><a href="#main">skip to Main</a></li>
+    <li><a href="#contentinfo">skip to Content info</a></li>
   </ul>
 
-  <header class="grid grid-middle" role="banner">
+  <header class="grid grid-middle" role="banner" id="banner">
     <div class="pad-t unit s-1 s-1 m-1-3 l-1-3">
       <h1 class="title">Time Buddies</h1>
     </div>
-    <nav class="nav list-group pad-t peta-0 text-right bold unit xs-1-2 s-1-2 m-2-4 l-2-4" role="navigation" id="nav">
+    <nav class="list-group pad-t peta-0 text-right bold unit xs-1-2 s-1-2 m-2-4 l-2-4" role="navigation" id="nav">
       <ul>
         <li><a class="btn btn-home current island-1-4" href="index.html">Home</a></li>
         <li><a class="btn btn-tour island-1-2" href="tour.html">Tour</a></li>
@@ -32,7 +34,7 @@
 
     <div class="unit xs-1 s-1 m-1 l-1 xl-1 banner">
       <div class="push-2 embed embed-3by1">
-        <img class="embed-item item" src="images/pexels-photo-3584996.jpeg" alt="Woman using the computer">
+        <img class="embed-item item" src="images/pexels-photo-3584996.jpeg" alt="Woman using the computer" aria-label="Woman using the computer">
         <div class="banner-content push-2">
 
           <div class="max-length wrapper-call-to-action embed embed-3by1 gutter-1-2">
@@ -104,29 +106,29 @@
         </table>
       </div>
     </div>
+
+    <figure class="photo-about gutter-1-4 pad-t push-r-1-2 pad-t-2">
+      <img class="img-flex" src="images/computer.png" alt="logo" aria-label="computer-icon">
+    </figure>
+
+    <section class="about pad-b-1-2 pad-t-1-2 island-2">
+      <div class="unit nina bold about-title push"> Download Time Buddies </div>
+      <p class="about-description">We are a time managing platform built for you and your team <br> to manage projects, track time, and organize.</p>
+      <a class="island-1-2" href="tour.html">skip to Learn More</a>
+    </section>
+
+    <figure class="photo-about gutter-1-4 pad-t push-r-1-2 pad-t-2">
+      <img class="img-flex" src="images/phone.png" alt="" aria-label="phone-icon">
+    </figure>
+
+    <section class="objective pad-b-1-2 pad-t-1-2 island-2">
+      <div class="unit nina bold objective-title push"> Download Time Buddies For Mobile </div>
+      <p class="objective-description">Our Objective is to help business workers and students handle <br> work projects while managing their time efficiently.</p>
+      <a class="island-1-2" href="tour.html">skip to Learn More</a>
+    </section>
   </main>
 
-  <figure class="photo-about gutter-1-4 pad-t push-r-1-2 pad-t-2">
-    <img class="img-flex" src="images/computer.png" alt="">
-  </figure>
-
-  <section class="about pad-b-1-2 pad-t-1-2 island-2">
-    <div class="unit nina bold about-title push"> Download Time Buddies </div>
-    <p class="about-description">We are a time managing platform built for you and your team <br> to manage projects, track time, and organize.</p>
-    <a class="island-1-2" href="tour.html">skip to Learn More</a>
-  </section>
-
-  <figure class="photo-about gutter-1-4 pad-t push-r-1-2 pad-t-2">
-    <img class="img-flex" src="images/phone.png" alt="">
-  </figure>
-
-  <section class="objective pad-b-1-2 pad-t-1-2 island-2">
-    <div class="unit nina bold objective-title push"> Download Time Buddies For Mobile </div>
-    <p class="objective-description">Our Objective is to help business workers and students handle <br> work projects while managing their time efficiently.</p>
-    <a class="island-1-2" href="tour.html">skip to Learn More</a>
-  </section>
-
-  <footer role="contentinfo">
+  <footer role="contentinfo" id="contentinfo">
     <div class="pad-t push">
       <small class="push-0">Time Buddies</small>
     </div>
