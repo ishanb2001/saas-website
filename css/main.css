@@ -210,13 +210,12 @@ p {
 nav {
   transform: translateX(-1rem);
 }
-
       .banner-image{
         width: 100%;
         transform: translateX(-1rem);
       }
 
-      .signup-banner-image{
+      .signup-banner-image {
          transform: translateX(-1rem);
       }
 
