@@ -116,6 +116,10 @@ p {
 
 @media only screen and (min-width: 25em) {
 
+  nav{
+    transform: translateX(-13rem);
+  }
+
   .banner-image{
     position: absolute;
     transform: translateX(50rem);
@@ -129,12 +133,24 @@ p {
     transform: translateX(50rem);
   }
 
+  .photo-objective {
+    transform: translateX(2rem);
+  }
+
+  .photo-about {
+    transform: translateX(2rem);
+  }
+
   .banner-content{
     transform: translateY(4rem);
   }
   }
 
   @media only screen and (min-width: 40em) {
+
+    nav{
+      transform: translateX(-1rem);
+    }
 
     .banner-image{
       transform: translateX(50rem);
@@ -144,6 +160,14 @@ p {
        transform: translateX(2rem);
     }
 
+    .photo-about {
+      transform: translateX(0rem);
+    }
+
+    .photo-objective {
+      transform: translateX(0rem);
+    }
+
     .tour-banner {
       transform: translateX(5rem);
     }
@@ -151,6 +175,10 @@ p {
 }
 
     @media only screen and (min-width: 60em) {
+
+      nav{
+        transform: translateX(-1rem);
+      }
 
       .banner-image{
         width: 100%;
@@ -165,12 +193,23 @@ p {
         transform: translateX(-3rem);
       }
 
+      .photo-objective {
+        transform: translateX(0rem);
+      }
+      .photo-about {
+        transform: translateX(0rem);
+      }
+
       .banner-content{
         transform: translateY(2rem);
       }
   }
 
     @media only screen and (min-width: 90em) {
+
+nav {
+  transform: translateX(-1rem);
+}
 
       .banner-image{
         width: 100%;
@@ -181,6 +220,13 @@ p {
          transform: translateX(-1rem);
       }
 
+      .photo-objective {
+        transform: translateX(0rem);
+      }
+
+      .photo-about {
+        transform: translateX(0rem);
+      }
         .tour-banner {
           transform: translateX(-1rem);
         }
