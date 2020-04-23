@@ -116,8 +116,12 @@ p {
 
 @media only screen and (min-width: 25em) {
 
+  h1 {
+    text-align: center;
+  }
+
   nav {
-    transform: translateX(-13rem);
+    transform: translateX(-6.5rem);
   }
 
   .banner-image {
@@ -125,12 +129,12 @@ p {
     transform: translateX(50rem);
   }
 
-  .sign-up-banner {
+  .signup-banner-image {
     transform: translateX(70rem);
   }
 
   .tour-banner {
-    transform: translateX(50rem);
+    transform: translateX(70rem);
   }
 
   .photo-objective {
@@ -141,8 +145,13 @@ p {
     transform: translateX(2rem);
   }
 
+  .button-sign-up {
+    transform: translateY(-3rem);
+  }
+
   .banner-content {
-    transform: translateY(4rem);
+    transform: translateY(5rem);
+    text-align: center;
   }
 
 }
@@ -150,15 +159,19 @@ p {
 @media only screen and (min-width: 40em) {
 
   nav {
-    transform: translateX(-1rem);
+    transform: translateX(-7rem);
   }
 
   .banner-image {
     transform: translateX(50rem);
   }
 
+  .tour-banner {
+    transform: translateX(50rem);
+  }
+
   .signup-banner-image {
-    transform: translateX(2rem);
+    transform: translateX(50rem);
   }
 
   .photo-about {
@@ -169,17 +182,18 @@ p {
     transform: translateX(.1rem);
   }
 
-  .tour-banner {
-    transform: translateX(5rem);
+  .banner-content {
+    transform: translateY(5rem);
+    text-align: center;
+  }
+
+  .button-sign-up {
+    transform: translateY(-3rem);
   }
 
 }
 
 @media only screen and (min-width: 60em) {
-
-  nav {
-    transform: translateX(-1rem);
-  }
 
   .banner-image {
     width: 100%;
@@ -202,8 +216,13 @@ p {
     transform: translateX(.1rem);
   }
 
+  .button-sign-up {
+    transform: translateY(-3rem);
+  }
+
   .banner-content {
     transform: translateY(2rem);
+    text-align: left;
   }
 
 }
@@ -233,6 +252,10 @@ p {
 
   .tour-banner {
     transform: translateX(-1rem);
+  }
+
+  .button-sign-up {
+    transform: translateY(-3rem);
   }
 
   .banner-content {
