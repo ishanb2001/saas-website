@@ -75,6 +75,11 @@ nav {
   width: 50%;
 }
 
+.photo-phone {
+  float: left;
+  width: 350px;
+}
+
 .photo-about {
   float: left;
   width: 350px;
@@ -244,6 +249,10 @@ p {
 
   .photo-objective {
     transform: translateX(.1rem);
+  }
+
+  .photo-phone {
+    transform: translateY(.8rem);
   }
 
   .photo-about {
